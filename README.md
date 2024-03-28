@@ -2,4 +2,4 @@ This is a command line tool I wrote in less than 30 mins for (what I'm pretty su
 
 Written in python (for now) as I just needed it done quick.
 
-Currently only works on Linux (and maybe BSD but untested there) as it uses the "find" command which is, for some (likely pointless) reason, not the same on MacOS.
+Currently tested and known working on MacOS and Linux, although very likely works fine on BSD. Probably doesn't work on Windows.

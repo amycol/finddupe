@@ -2,7 +2,7 @@ import subprocess
 
 filenames = []
 
-proc = subprocess.run("find", capture_output=True, text=True)
+proc = subprocess.run("find .", capture_output=True, text=True, shell=True)
 files = proc.stdout.split("\n")
 for i in files:
     tmparr = i.split("/")
